@@ -85,11 +85,11 @@ class LoginRoute extends Component {
         <div className={classes.LoginContainer}>
           <img src={logoUrl} className={classes.Logo} alt="website logo" />
           <h1 className={classes.LargeHeading}>Tasty Kitchens</h1>
-          <img
+          {/* <img
             className={classes.Rectangle}
             src="https://res.cloudinary.com/ddgvegjgk/image/upload/v1635311318/tastykitchens/Rectangle_1457_ri10vf.png"
             alt="website login"
-          />
+          /> */}
 
           <h1 className={classes.LoginHeading}>Login</h1>
           <form className={classes.FormContainer} onSubmit={this.onSubmitForm}>
